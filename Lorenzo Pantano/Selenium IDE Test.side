@@ -1,0 +1,261 @@
+{
+  "id": "259893a0-af90-4560-b899-3de03714e8a3",
+  "version": "2.0",
+  "name": "Soundmate",
+  "url": "http://localhost:9090/SoundmateFX_war_exploded/main/web/jsp/index.jsp",
+  "tests": [{
+    "id": "0aac3014-09e1-4eb4-96f5-7e3f3e807547",
+    "name": "SearchBandTest",
+    "commands": [{
+      "id": "ff266b6e-7ef8-42b5-bfbf-920b8062043d",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:9090/SoundmateFX_war_exploded/main/web/jsp/index.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "10abbc66-5a0d-4cdf-bc9f-b37a72f0d05e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1037x641",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "543a1793-69b9-468d-acc8-01e9d12bb74d",
+      "comment": "",
+      "command": "click",
+      "target": "id=email-field",
+      "targets": [
+        ["id=email-field", "id"],
+        ["name=email", "name"],
+        ["css=#email-field", "css:finder"],
+        ["xpath=//input[@id='email-field']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccb32602-07a0-4dd0-b8ff-d846faaa916e",
+      "comment": "",
+      "command": "type",
+      "target": "id=email-field",
+      "targets": [
+        ["id=email-field", "id"],
+        ["name=email", "name"],
+        ["css=#email-field", "css:finder"],
+        ["xpath=//input[@id='email-field']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "l.pantano97@gmail.com"
+    }, {
+      "id": "bd97d0f9-e6fc-4569-b07b-ee8bbf394d5c",
+      "comment": "",
+      "command": "click",
+      "target": "id=password-field",
+      "targets": [
+        ["id=password-field", "id"],
+        ["name=password", "name"],
+        ["css=#password-field", "css:finder"],
+        ["xpath=//input[@id='password-field']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7af5363e-73c3-4ca7-9316-3f3487c065e1",
+      "comment": "",
+      "command": "type",
+      "target": "id=password-field",
+      "targets": [
+        ["id=password-field", "id"],
+        ["name=password", "name"],
+        ["css=#password-field", "css:finder"],
+        ["xpath=//input[@id='password-field']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "lorenzo"
+    }, {
+      "id": "13f1e43b-5295-4d48-8837-644edc269b37",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=.sign-in-form-button", "css:finder"],
+        ["xpath=//input[@name='login']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f73399d-a3bd-46fc-bae4-c4860f09ad45",
+      "comment": "",
+      "command": "click",
+      "target": "name=searchString",
+      "targets": [
+        ["name=searchString", "name"],
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@name='searchString']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarSupportedContent']/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96242ede-4952-4b17-ae1a-97b5e8b4df5e",
+      "comment": "",
+      "command": "type",
+      "target": "name=searchString",
+      "targets": [
+        ["name=searchString", "name"],
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@name='searchString']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarSupportedContent']/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Not Sober At All"
+    }, {
+      "id": "086c4bc4-a340-4dc7-8a49-4316978f4903",
+      "comment": "",
+      "command": "click",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.btn-outline-success", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarSupportedContent']/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48c2b780-4f22-4e05-b87f-0e02adafb4d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea9bbf2a-3182-44cb-82f7-d00fe45957a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "817e76cd-272c-4c9f-bce6-6755742e972e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Search Results for Not Sober At All')]", "xpath:innerText"]
+      ],
+      "value": "Search Results for Not Sober At All"
+    }]
+  }, {
+    "id": "2ddd5b7f-e66d-455b-82cf-3fbc5f2528f6",
+    "name": "LoginTest",
+    "commands": [{
+      "id": "836e1bfb-ec6c-4a05-812d-aa76a915649a",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:9090/SoundmateFX_war_exploded/main/web/jsp/index.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "67781557-1bf9-4823-9101-d20dbe8f8e1f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1041x645",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0884081b-48d2-440d-8673-c928cf42968f",
+      "comment": "",
+      "command": "click",
+      "target": "id=email-field",
+      "targets": [
+        ["id=email-field", "id"],
+        ["name=email", "name"],
+        ["css=#email-field", "css:finder"],
+        ["xpath=//input[@id='email-field']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a69ea91f-c129-42c7-8036-63a753a62c75",
+      "comment": "",
+      "command": "type",
+      "target": "id=email-field",
+      "targets": [
+        ["id=email-field", "id"],
+        ["name=email", "name"],
+        ["css=#email-field", "css:finder"],
+        ["xpath=//input[@id='email-field']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "notsober@gmail.com"
+    }, {
+      "id": "919acd9c-9a73-4d19-8f57-5615d4413713",
+      "comment": "",
+      "command": "type",
+      "target": "id=password-field",
+      "targets": [
+        ["id=password-field", "id"],
+        ["name=password", "name"],
+        ["css=#password-field", "css:finder"],
+        ["xpath=//input[@id='password-field']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "notsober"
+    }, {
+      "id": "f6bb2fc2-f3ed-4b0d-949b-55bbeaa339d5",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=.sign-in-form-button", "css:finder"],
+        ["xpath=//input[@name='login']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c657d12-d671-467d-9d44-0ef596ddcb60",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2bce515-8334-427e-9871-e1465464a379",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=welcomeUser",
+      "targets": [
+        ["id=welcomeUser", "id"],
+        ["css=#welcomeUser", "css:finder"],
+        ["xpath=//h1[@id='welcomeUser']", "xpath:attributes"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Welcome, Not Sober At All')]", "xpath:innerText"]
+      ],
+      "value": "Welcome, Not Sober At All"
+    }]
+  }],
+  "suites": [{
+    "id": "2a1298e2-a5f4-47e8-a17a-b8a21491fe7b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost:9090/SoundmateFX_war_exploded/main/web/jsp/index.jsp"],
+  "plugins": []
+}
