@@ -1,0 +1,112 @@
+{
+  "id": "259893a0-af90-4560-b899-3de03714e8a3",
+  "version": "2.0",
+  "name": "Soundmate",
+  "url": "http://localhost:9090/SoundmateFX_war_exploded/main/web/jsp/index.jsp",
+  "tests": [{
+    "id": "50a92774-df4f-4535-866d-af7dd84aca84",
+    "name": "LoginTest",
+    "commands": [{
+      "id": "1c595e85-5f0c-46e2-9d55-9e9505e63592",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:9090/SoundmateFX_war_exploded/main/web/jsp/index.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c012b6ea-c717-44db-91f9-c39350387d94",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4183a8b8-52d0-497b-9e9f-010f1538c4b4",
+      "comment": "",
+      "command": "click",
+      "target": "id=email-field",
+      "targets": [
+        ["id=email-field", "id"],
+        ["name=email", "name"],
+        ["css=#email-field", "css:finder"],
+        ["xpath=//input[@id='email-field']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18c2245a-ee18-405f-8be1-26b45926f8fe",
+      "comment": "",
+      "command": "type",
+      "target": "id=email-field",
+      "targets": [
+        ["id=email-field", "id"],
+        ["name=email", "name"],
+        ["css=#email-field", "css:finder"],
+        ["xpath=//input[@id='email-field']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "l.pantano97@gmail.com"
+    }, {
+      "id": "19abdbda-760a-42fc-8ca9-4bbba8c73485",
+      "comment": "",
+      "command": "type",
+      "target": "id=password-field",
+      "targets": [
+        ["id=password-field", "id"],
+        ["name=password", "name"],
+        ["css=#password-field", "css:finder"],
+        ["xpath=//input[@id='password-field']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "lorenzo"
+    }, {
+      "id": "91151ed4-0c23-4ead-ab9c-ab79e7c08bd8",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=.sign-in-form-button", "css:finder"],
+        ["xpath=//input[@name='login']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e9d6008-0131-453d-a495-6d65df43620e",
+      "comment": "",
+      "command": "click",
+      "target": "id=welcomeUser",
+      "targets": [
+        ["id=welcomeUser", "id"],
+        ["css=#welcomeUser", "css:finder"],
+        ["xpath=//h1[@id='welcomeUser']", "xpath:attributes"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Welcome, Lorenzo Pantano')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6632d6e9-4c0d-4de8-af5b-fec5a236abe9",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=welcomeUser",
+      "targets": [
+        ["id=welcomeUser", "id"],
+        ["css=#welcomeUser", "css:finder"],
+        ["xpath=//h1[@id='welcomeUser']", "xpath:attributes"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Welcome, Lorenzo Pantano')]", "xpath:innerText"]
+      ],
+      "value": "Welcome, Lorenzo Pantano"
+    }]
+  }],
+  "suites": [{
+    "id": "2a1298e2-a5f4-47e8-a17a-b8a21491fe7b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost:9090/SoundmateFX_war_exploded/main/web/jsp/index.jsp"],
+  "plugins": []
+}
