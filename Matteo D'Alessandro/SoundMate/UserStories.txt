@@ -1,0 +1,6 @@
+As a user, I want to send a booking request for a room , so that I can easily make a rehearsal session.
+As a user, I want to look for a specific kind of musician among the ones present on the platform, so that I can send a request for a collaboration/band project.
+As a user, I want to be able to post my artistic contents**, so that I’m able to promote myself.
+
+*message: not real-time, but
+**artistic contents: videos, photos

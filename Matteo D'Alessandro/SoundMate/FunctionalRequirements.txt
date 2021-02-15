@@ -1,0 +1,6 @@
+The system shall provide a communication channel between users, by using a message* system.
+The system shall provide a “safe content” protocol, allowing users to report a content* if not appropriate for the platform**.
+The system shall provide the access to a power user, who can remove inappropriate contents and ban users violating the “safe content” protocol.
+
+*message: not real-time, but “email” kind of.
+**content: all the contents published by users must be under this protocol.
